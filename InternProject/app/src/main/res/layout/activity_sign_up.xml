@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUp"
+    android:layout_margin="30dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign-Up"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:layout_margin="10sp"
+            android:textColor="@color/teal_700"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="First Name"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/signup_firstname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:background="@drawable/border"
+                android:padding="10sp"
+                android:textSize="16sp"
+                android:layout_weight="1"
+                android:maxLength="10"
+                android:ems="1"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Last Name"
+                android:textColor="@color/black"
+                android:textSize="14sp"
+                android:layout_weight="4"
+                android:gravity="center"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/signup_lastname"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:background="@drawable/border"
+                android:padding="10sp"
+                android:textSize="16sp"
+                android:layout_weight="1"
+                android:maxLength="10"
+                android:ems="1"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:gravity="center"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:id="@+id/signup_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:background="@drawable/border"
+                android:padding="10sp"
+                android:textSize="16sp"
+                android:layout_weight="1"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Mobile"
+                android:textColor="@color/black"
+                android:textSize="16sp"
+                android:layout_weight="4"
+                android:gravity="center"/>
+
+            <androidx.appcompat.widget.AppCompatEditText
+                android:layout_width="match_parent"
+                android:id="@+id/signup_mobile"
+                android:layout_height="wrap_content"
+                android:layout_margin="10sp"
+                android:background="@drawable/border"
+                android:padding="10sp"
+                android:textSize="16sp"
+                android:layout_weight="1"
+                android:maxLength="10"
+                android:ems="1"/>
+
+
+        </LinearLayout>
+        <Button
+            android:id="@+id/signup_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20sp"
+            android:text="Sign-Up"
+            android:textAllCaps="false"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            android:layout_marginVertical="20sp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Already registered? "
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:gravity="end"
+                android:layout_weight="1"/>
+            <TextView
+                android:id="@+id/toSignin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SignIn"
+                android:textColor="@color/teal_700"
+                android:textSize="18sp"
+                android:gravity="start"
+                android:layout_weight="1.7"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

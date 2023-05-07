@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Option2">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="10sp">
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/new_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:background="@drawable/border"
+        android:text="I am a New Member"
+        android:textAllCaps="false"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/existing_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:background="@drawable/border"
+        android:text="I am an Existing Member"
+        android:textAllCaps="false"
+        />
+</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
