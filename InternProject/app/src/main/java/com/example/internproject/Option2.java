@@ -20,6 +20,7 @@ public class Option2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent= new Intent(Option2.this,SignUp.class);
                 startActivity(intent);
+                finish();
             }
         });
         oldUser.setOnClickListener(new View.OnClickListener() {
@@ -27,6 +28,7 @@ public class Option2 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent= new Intent(Option2.this,MainActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

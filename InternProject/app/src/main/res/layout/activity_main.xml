@@ -13,7 +13,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Login"
+            android:text="Tele-Therapy Login"
             android:gravity="center"
             android:textSize="24sp"
             android:layout_margin="10sp"

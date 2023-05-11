@@ -20,6 +20,7 @@ public class Option3 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent= new Intent(Option3.this,AgeOption.class);
                 startActivity(intent);
+                finish();
             }
         });
         therapist.setOnClickListener(new View.OnClickListener() {
@@ -27,6 +28,7 @@ public class Option3 extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent= new Intent(Option3.this,DoctorsList.class);
                 startActivity(intent);
+                finish();
             }
         });
     }

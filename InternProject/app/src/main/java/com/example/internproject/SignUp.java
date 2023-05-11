@@ -39,6 +39,7 @@ public class SignUp extends AppCompatActivity {
             public void onClick(View v) {
                 Intent intent=new Intent(SignUp.this,MainActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
         signup.setOnClickListener(new View.OnClickListener() {
@@ -68,6 +69,7 @@ public class SignUp extends AppCompatActivity {
                                 Toast.makeText(SignUp.this,"Registered Successfully!",Toast.LENGTH_LONG).show();
                                 Intent intent= new Intent(SignUp.this,Option3.class);
                                 startActivity(intent);
+                                finish();
                             }
                         }
                     });

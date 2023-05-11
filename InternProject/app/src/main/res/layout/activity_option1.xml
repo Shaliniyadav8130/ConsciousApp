@@ -13,11 +13,13 @@
         android:layout_margin="10sp"
         android:gravity="center">
         <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/talk"
             xmlns:android="http://schemas.android.com/apk/res/android"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20sp"
             android:background="@drawable/border"
+            android:textColor="@color/black"
             android:text="I want to talk to a Therapist"
             android:textAllCaps="false"
             />
@@ -26,6 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="20sp"
+            android:textColor="@color/black"
             android:background="@drawable/border"
             android:text="I am a Therapist"
             android:textAllCaps="false"
